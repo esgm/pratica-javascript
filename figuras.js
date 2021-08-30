@@ -90,3 +90,17 @@ function calcularAreaCuadrado() {
   const area = areaCuadrado(value);
   alert(area);
 }
+
+function calcularPerimetroTriangulo() {
+const input1 = document.getElementById("Inputtriangulol1");
+const lt1 = input1.value;
+
+const input2 = document.getElementById("Inputtriangulol2");
+const lt2 = input2.value;
+
+const input3 = document.getElementById("Inputtriangulobase");
+const tbase = input3.value;
+
+const perTrian = perimetroTriangulo(lt1,lt2,tbase);
+alert(perTrian);
+}
